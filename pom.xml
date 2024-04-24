@@ -1099,7 +1099,7 @@
 		<profile>
 			<id>sonar-cloud</id>
 			<properties>
-				<sonar.organization>openmrs</sonar.organization>
+				<sonar.organization>turki25</sonar.organization>
 				<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 			</properties>
 		</profile>

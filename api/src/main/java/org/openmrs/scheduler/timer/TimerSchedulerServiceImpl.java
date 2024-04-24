@@ -132,6 +132,7 @@ public class TimerSchedulerServiceImpl extends BaseOpenmrsService implements Sch
 		log.debug("Gracefully shutting down scheduler service ...");
 		// gracefully shutdown all tasks and remove all references to the timers, scheduler
 		try {
+			//new
 			shutdownAllTasks();
 			cancelAllTimers(); // Just a precaution - this shouldn't be necessary if shutdownAllTasks() does its job
 		}
